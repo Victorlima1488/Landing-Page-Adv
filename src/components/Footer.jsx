@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex space-x-4 mb-4">
           <a
             className="text-red-600 hover:text-red-800 transition-all duration-200"
-            href="https://www.instagram.com/2system_dev/"
+            href="#"
             target="_blank"
             rel="noreferrer"
           >
@@ -16,7 +16,7 @@ export default function Footer() {
 
           <a
             className="text-gray-600 hover:text-gray-800 transition-all duration-200"
-            href="https://github.com/ElvisFelix-dev"
+            href="#"
             target="_blank"
             rel="noreferrer"
           >
@@ -25,7 +25,7 @@ export default function Footer() {
 
           <a
             className="text-blue-600 hover:text-blue-800 transition-all duration-200"
-            href="https://www.linkedin.com/in/elvis-felix/"
+            href="#"
             target="_blank"
             rel="noreferrer"
           >
@@ -34,7 +34,7 @@ export default function Footer() {
 
           <a
             className="text-green-600 hover:text-green-800 transition-all duration-200"
-            href="https://wa.me/5516996318063"
+            href="#"
             target="_blank"
             rel="noreferrer"
           >
@@ -42,12 +42,8 @@ export default function Footer() {
           </a>
         </div>
         <p className="text-sm text-black hover:text-gray-400 transition-all duration-200 inline-block">
-          <a
-            href="https://2system.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Desenvolvido por 2System
+          <a href="#" target="_blank" rel="noreferrer">
+            Desenvolvido por victor Lima
           </a>
         </p>
       </footer>

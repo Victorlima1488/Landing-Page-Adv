@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 export function Nav() {
   return (
     <nav className="hidden lg:flex">
-      <ul className="lg:flex space-x-6 font-body font-semibold text-sm text-primary">
+      <ul className="lg:flex space-x-6 font-body font-semibold text-sm text-accent-hover">
         {navigation.map((item, index) => {
           return (
             <li key={index}>
@@ -15,7 +15,7 @@ export function Nav() {
                 offset={-120}
                 activeClass="active"
                 spy={true}
-                className="hover:text-accent-hover transition-all duration-300 cursor-pointer"
+                className="hover:text-accent transition-all duration-300 cursor-pointer"
               >
                 {item.name}
               </Link>

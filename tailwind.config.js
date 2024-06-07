@@ -2,7 +2,7 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Playfair Display',
+      primary: 'Rubik, sans-serif',
       body: 'Open Sans',
     },
     screens: {
@@ -14,13 +14,13 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#292A4A',
+          DEFAULT: '#BB864E',
           darker: '#242546',
           hover: '#383956',
         },
 
         accent: {
-          DEFAULT: '#CF9455',
+          DEFAULT: '#611718',
           hover: '#BB864E',
         },
 
